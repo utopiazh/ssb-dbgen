@@ -1,0 +1,41 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/zhouhang/code/ssb-dbgen'
+get -r`cat .version` ./SCCS/s.build.c
+get -r`cat .version` ./SCCS/s.dss.h
+ 
+get -r`cat .version` ./SCCS/s.rnd.h
+get -r`cat .version` ./SCCS/s.config.h
+get -r`cat .version` ./SCCS/s.dsstypes.h
+get -r`cat .version` ./SCCS/s.shared.h
+get -r`cat .version` ./SCCS/s.bcd2.h
+get -r`cat .version` ./SCCS/s.tpcd.h
+gcc -O -g -DDBNAME=\"dss\" -DMAC -DDB2  -DSSBM    -c -o build.o build.c
+get -r`cat .version` ./SCCS/s.driver.c
+gcc -O -g -DDBNAME=\"dss\" -DMAC -DDB2  -DSSBM    -c -o driver.o driver.c
+get -r`cat .version` ./SCCS/s.bm_utils.c
+gcc -O -g -DDBNAME=\"dss\" -DMAC -DDB2  -DSSBM    -c -o bm_utils.o bm_utils.c
+get -r`cat .version` ./SCCS/s.rnd.c
+gcc -O -g -DDBNAME=\"dss\" -DMAC -DDB2  -DSSBM    -c -o rnd.o rnd.c
+get -r`cat .version` ./SCCS/s.print.c
+gcc -O -g -DDBNAME=\"dss\" -DMAC -DDB2  -DSSBM    -c -o print.o print.c
+get -r`cat .version` ./SCCS/s.load_stub.c
+gcc -O -g -DDBNAME=\"dss\" -DMAC -DDB2  -DSSBM    -c -o load_stub.o load_stub.c
+get -r`cat .version` ./SCCS/s.bcd2.c
+gcc -O -g -DDBNAME=\"dss\" -DMAC -DDB2  -DSSBM    -c -o bcd2.o bcd2.c
+get -r`cat .version` ./SCCS/s.speed_seed.c
+gcc -O -g -DDBNAME=\"dss\" -DMAC -DDB2  -DSSBM    -c -o speed_seed.o speed_seed.c
+get -r`cat .version` ./SCCS/s.text.c
+gcc -O -g -DDBNAME=\"dss\" -DMAC -DDB2  -DSSBM    -c -o text.o text.c
+get -r`cat .version` ./SCCS/s.permute.c
+gcc -O -g -DDBNAME=\"dss\" -DMAC -DDB2  -DSSBM    -c -o permute.o permute.c
+get -r`cat .version` ./SCCS/s.dists.dss
+gcc -O -g -DDBNAME=\"dss\" -DMAC -DDB2  -DSSBM  -O -o dbgen build.o driver.o bm_utils.o rnd.o print.o load_stub.o bcd2.o speed_seed.o text.o permute.o -lm
+get -r`cat .version` ./SCCS/s.permute.h
+ 
+get -r`cat .version` ./SCCS/s.qgen.c
+gcc -O -g -DDBNAME=\"dss\" -DMAC -DDB2  -DSSBM    -c -o qgen.o qgen.c
+get -r`cat .version` ./SCCS/s.varsub.c
+gcc -O -g -DDBNAME=\"dss\" -DMAC -DDB2  -DSSBM    -c -o varsub.o varsub.c
+gcc -O -g -DDBNAME=\"dss\" -DMAC -DDB2  -DSSBM  -O -o qgen build.o bm_utils.o qgen.o rnd.o varsub.o text.o bcd2.o permute.o speed_seed.o -lm
+make: Leaving directory `/Users/zhouhang/code/ssb-dbgen'
+ 

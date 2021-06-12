@@ -7,6 +7,9 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <getopt.h>
+#include <unistd.h>
+
 #if (defined(_POSIX_)||!defined(WIN32))
 /*
 #include <unistd.h>

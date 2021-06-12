@@ -1,0 +1,10 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/zhouhang/code/ssb-dbgen",
+            "binaryPath": "/Users/zhouhang/code/ssb-dbgen/dbgen",
+            "binaryArgs": ["-S", "10", "-T", "l"]
+        }
+    ]
+}

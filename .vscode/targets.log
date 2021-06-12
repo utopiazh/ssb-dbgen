@@ -1,0 +1,945 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sat Jun 12 23:41:14 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+ 
+# automatic
+?F = $(notdir $?)
+# makefile (from `makefile', line 53)
+TEST_RES = O.res L.res c.res s.res P.res S.res n.res r.res
+# makefile (from `makefile', line 21)
+OBJ = .o
+# makefile (from `makefile', line 40)
+SRC = $(SRC1) $(SRC2)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `makefile', line 55)
+DBGENSRC = $(SRC1) $(HDR1) $(OTHER) $(DOC) $(SRC2) $(HDR2) $(SRC3)
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from `makefile', line 22)
+EXE = 
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/zhouhang/code/ssb-dbgen
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `makefile', line 17)
+CFLAGS = -O -g -DDBNAME=\"dss\" -D$(MACHINE) -D$(DATABASE) -D$(WORKLOAD)
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# makefile (from `makefile', line 50)
+DDL = dss.ddl dss.ri
+# makefile (from `makefile', line 37)
+SRC1 = build.c driver.c bm_utils.c rnd.c print.c load_stub.c bcd2.c speed_seed.c text.c permute.c
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = /Users/zhouhang/Library/Application Support/Code - Insiders/CachedData/3290f9a73ba6fc3b1063ea32476067434ee91b1d
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCodeInsiders
+# makefile (from `makefile', line 65)
+TREE_DOC = tree.readme tree.changes appendix.readme appendix.version answers.readme queries.readme variants.readme
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/sy/zts0_46d60q90hk118wz43f00000gn/T/vscode-ipc-95f67a62-0b53-4e87-945f-fdf79d682d7e.sock
+# environment
+PATH = /opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/anaconda3/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+# makefile (from `makefile', line 42)
+OBJ1 = build$(OBJ) driver$(OBJ) bm_utils$(OBJ) rnd$(OBJ) print$(OBJ) load_stub$(OBJ) bcd2$(OBJ) speed_seed$(OBJ) text$(OBJ) permute$(OBJ)
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# makefile (from `makefile', line 39)
+SRC2 = qgen.c varsub.c 
+# makefile (from `makefile', line 56)
+QD = 1.sql 2.sql 3.sql 4.sql 5.sql 6.sql 7.sql 8.sql 9.sql 10.sql 11.sql 12.sql 13.sql 14.sql 15.sql 16.sql 17.sql 18.sql 19.sql 20.sql 21.sql 22.sql
+# environment
+VSCODE_LOG_STACK = true
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `makefile', line 18)
+LDFLAGS = -O
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+LS_COLORS = no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:
+# makefile (from `makefile', line 29)
+PROG1 = dbgen$(EXE)
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.ayEnhMKUAR/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `makefile', line 66)
+JUNK = 
+# makefile (from `makefile', line 48)
+SETS = dists.dss 
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from `makefile', line 46)
+OBJS = $(OBJ1) $(OBJ2)
+# environment
+PWD = /Users/zhouhang/code/ssb-dbgen
+# makefile (from `makefile', line 60)
+ANS = 1.ans 2.ans 3.ans 4.ans 5.ans 6.ans 7.ans 8.ans 9.ans 10.ans 11.ans 12.ans 13.ans 14.ans 15.ans 16.ans 17.ans 18.ans 19.ans 20.ans 21.ans 22.ans
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `makefile', line 35)
+HDR = $(HDR1) $(HDR2)
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /Users/zhouhang
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+LOGNAME = zhouhang
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from `makefile', line 30)
+PROG2 = qgen$(EXE)
+# makefile (from `makefile', line 59)
+VARIANTS = 8a.sql 12a.sql 13a.sql 14a.sql 15a.sql 
+# environment
+ZSH = /Users/zhouhang/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `makefile', line 13)
+WORKLOAD = SSBM 
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from `makefile', line 5)
+CC = gcc
+# makefile (from `makefile', line 33)
+HDR1 = dss.h rnd.h config.h dsstypes.h shared.h bcd2.h
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = zhouhang
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `makefile', line 64)
+ALLSRC = $(DBGENSRC) 
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `makefile', line 44)
+OBJ2 = build$(OBJ) bm_utils$(OBJ) qgen$(OBJ) rnd$(OBJ) varsub$(OBJ) text$(OBJ) bcd2$(OBJ) permute$(OBJ) speed_seed$(OBJ)
+ 
+# makefile (from `makefile', line 63)
+QSRC = $(FQD) $(VARIANTS)
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# makefile (from `makefile', line 49)
+DOC = README HISTORY PORTING.NOTES BUGS
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/sy/zts0_46d60q90hk118wz43f00000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/zhouhang/Library/Application Support/Code - Insiders/1.54.0-insider-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.1708194.1708200
+# makefile (from `makefile', line 27)
+TREE_ROOT = /tmp/tree
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# makefile (from `makefile', line 34)
+HDR2 = tpcd.h permute.h
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `makefile', line 31)
+PROGS = $(PROG1) $(PROG2)
+# makefile (from `makefile', line 51)
+OTHER = makefile.suite $(SETS) $(DDL) 
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# makefile (from `makefile', line 11)
+DATABASE = DB2 
+# makefile (from `makefile', line 23)
+LIBS = -lm
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `makefile', line 12)
+MACHINE = MAC
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 7478
+# variable set hash-table stats:
+# Load=100/1024=10%, Rehash=0, Collisions=54/235=23%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777234, inode 15802305): 57 files, no impossibilities.
+
+# 57 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+varsub.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+dists.dss:
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-12 19:49:06
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+makefile.suite:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+dss.ddl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+shared.h:
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-12 19:49:06
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+bm_utils.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+all: dbgen qgen
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+14.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+10.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+20.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+16.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+appendix.version:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tree.readme:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tpcd.h:
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-12 19:49:06
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+driver.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 23:13:43
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+11.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bcd2.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+dbgenshar: build.c driver.c bm_utils.c rnd.c print.c load_stub.c bcd2.c speed_seed.c text.c permute.c dss.h rnd.h config.h dsstypes.h shared.h bcd2.h makefile.suite dists.dss dss.ddl dss.ri README HISTORY PORTING.NOTES BUGS qgen.c varsub.c tpcd.h permute.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 82):
+	shar -o dbgen.shar $(DBGENSRC)
+	
+
+13a.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+rnd.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+README:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+# Not a target:
+answers.readme:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+text.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+permute.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+zip: build.c driver.c bm_utils.c rnd.c print.c load_stub.c bcd2.c speed_seed.c text.c permute.c dss.h rnd.h config.h dsstypes.h shared.h bcd2.h makefile.suite dists.dss dss.ddl dss.ri README HISTORY PORTING.NOTES BUGS qgen.c varsub.c tpcd.h permute.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 84):
+	zip dbgen $(DBGENSRC)
+	
+
+# Not a target:
+1.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+12.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+22.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+HISTORY:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+print.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 23:09:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+tree: build.c driver.c bm_utils.c rnd.c print.c load_stub.c bcd2.c speed_seed.c text.c permute.c dss.h rnd.h config.h dsstypes.h shared.h bcd2.h makefile.suite dists.dss dss.ddl dss.ri README HISTORY PORTING.NOTES BUGS qgen.c varsub.c tpcd.h permute.h 8a.sql 12a.sql 13a.sql 14a.sql 15a.sql tree.readme tree.changes appendix.readme appendix.version answers.readme queries.readme variants.readme 1.ans 2.ans 3.ans 4.ans 5.ans 6.ans 7.ans 8.ans 9.ans 10.ans 11.ans 12.ans 13.ans 14.ans 15.ans 16.ans 17.ans 18.ans 19.ans 20.ans 21.ans 22.ans
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 86):
+	rm -rf $(TREE_ROOT)
+	mkdir $(TREE_ROOT) 
+	mkdir $(TREE_ROOT)/appendix 
+	mkdir $(TREE_ROOT)/appendix/queries 
+	mkdir $(TREE_ROOT)/appendix/variants 
+	mkdir $(TREE_ROOT)/appendix/dbgen 
+	mkdir $(TREE_ROOT)/appendix/answers 
+	cp tree.readme $(TREE_ROOT)/README
+	cp appendix.readme $(TREE_ROOT)/appendix/README
+	cp answers.readme $(TREE_ROOT)/appendix/answers/README
+	cp queries.readme $(TREE_ROOT)/appendix/queries/README
+	cp variants.readme $(TREE_ROOT)/appendix/variants/README
+	cp tree.changes $(TREE_ROOT)/CHANGES
+	cp appendix.version $(TREE_ROOT)/appendix/VERSION
+	cp $(FQD) $(TREE_ROOT)/appendix/queries
+	cp $(VARIANTS) $(TREE_ROOT)/appendix/variants
+	cp $(DBGENSRC) $(TREE_ROOT)/appendix/dbgen
+	cp $(ANS) $(TREE_ROOT)/appendix/answers
+	(cd $(TREE_ROOT); tar chf - .) |compress > tree.tar.Z
+	(cd $(TREE_ROOT); zip -r  - . )  > tree.zip
+	date > tree.update
+	
+
+dss.h:
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-12 19:49:06
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+portable:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 108):
+	@ for f in $(SRC) $(HDR) ; \
+	do  \
+	expand $$f > /tmp/$$f; \
+	awk 'length > 72 { print FILENAME ":" NR " too long " }' /tmp/$$f ; \
+	rm /tmp/$$f ; \
+	done
+	
+
+bcd2.h:
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-12 19:49:06
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+# Not a target:
+2.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+18.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+rnd.h:
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-12 19:49:06
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+BUGS:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+15a.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 21:00:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+tree.changes:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+permute.h:
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-12 19:49:06
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+ 
+build.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h dss.h tpcd.h config.h
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 23:09:43
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+3.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+variants.readme:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+4.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+21.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+13.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+qgen: permute.h build.o bm_utils.o qgen.o rnd.o varsub.o text.o bcd2.o permute.o speed_seed.o
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-12 23:09:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 72):
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(OBJ2) $(LIBS)
+	
+
+qgen.o: dss.h tpcd.h config.h
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 23:09:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+load_stub.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 23:09:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+dsstypes.h:
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-12 19:49:06
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+driver.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+# Not a target:
+5.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+speed_seed.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h dss.h tpcd.h config.h
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 23:09:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+14a.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+# Not a target:
+17.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+6.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+19.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+release:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 115):
+	@chkout $(SRC) $(HDR)
+	@ for f in $(SRC) $(HDR) ; \
+	do \
+	expand $$f > /tmp/$$f ; \
+	mv /tmp/$$f $$f ; \
+	done
+	@chkin $(SRC) $(HDR)
+	
+
+# Not a target:
+15.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+config.h:
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-12 19:49:06
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+print.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+# Not a target:
+7.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+appendix.readme:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+varsub.o: dss.h tpcd.h config.h
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 23:09:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 74):
+	rm -f $(PROGS) $(OBJS) $(JUNK)
+	
+
+# Not a target:
+8.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+tar: build.c driver.c bm_utils.c rnd.c print.c load_stub.c bcd2.c speed_seed.c text.c permute.c dss.h rnd.h config.h dsstypes.h shared.h bcd2.h makefile.suite dists.dss dss.ddl dss.ri README HISTORY PORTING.NOTES BUGS qgen.c varsub.c tpcd.h permute.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 80):
+	tar cvhf $(PROG1).tar $(DBGENSRC) 
+	
+
+# Not a target:
+9.ans:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bm_utils.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h dss.h tpcd.h config.h
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 23:09:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+queries.readme:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+8a.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+qgen.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+load_stub.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+bcd2.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h dss.h tpcd.h config.h
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 23:09:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+PORTING.NOTES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+rnd.o: rnd.h dss.h rnd.h config.h dsstypes.h shared.h bcd2.h dss.h tpcd.h config.h
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 23:09:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+lint:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 76):
+	lint $(CFLAGS) -u -x -wO -Ma -p $(SRC1)
+	lint $(CFLAGS) -u -x -wO -Ma -p $(SRC2)
+	
+
+text.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h dss.h tpcd.h config.h
+ 
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 23:09:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+permute.o: dss.h rnd.h config.h dsstypes.h shared.h bcd2.h dss.h tpcd.h config.h
+#  Implicit rule search has been done.
+#  Last modified 2021-06-12 23:09:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+speed_seed.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+dss.ri:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+dbgen: build.o driver.o bm_utils.o rnd.o print.o load_stub.o bcd2.o speed_seed.o text.o permute.o dists.dss
+#  Implicit rule search has not been done.
+#  Last modified 2021-06-12 23:13:43
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 70):
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $(OBJ1) $(LIBS)
+	
+
+12a.sql:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 127):
+	get -r`cat .version` ./SCCS/s.$@
+	
+
+# files hash-table stats:
+# Load=88/1024=9%, Rehash=0, Collisions=32/366=9%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sat Jun 12 23:41:14 2021
+
+ 
